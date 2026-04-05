@@ -23,7 +23,7 @@ jobs:
       - uses: r-lib/actions/setup-renv@v2
 
       - name: Install rcmdcheck
-        run: install.packages("rcmdcheck", repos = "https://cloud.r-project.org")
+        run: Rscript -e 'install.packages("rcmdcheck", repos = "https://cloud.r-project.org")'
 
       - uses: r-lib/actions/check-r-package@v2
         with:

@@ -1,0 +1,15 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+/*.tar.gz
+/*.Rcheck/
+inst/doc
+renv/library/
+renv/python/
+renv/staging/
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
